@@ -1,0 +1,14 @@
+CSS --> cascading style sheet
+
+Css develop:
+- Hakon wium lee.
+- 1996
+
+
+Where css run?
+- Browser / Client side
+
+There are three ways to define CSS;
+1. extrenal css [.css]
+2. internal css <style></style>
+3. inline css - same line
