@@ -12,3 +12,10 @@ There are three ways to define CSS;
 1. extrenal css [.css]
 2. internal css <style></style>
 3. inline css - same line
+
+
+
+1st row : 1 left 2 right 3 right
+2nd row : 4 left 5 right 6 left
+3rd row : 7 right 8 right 9 left
+4th row : 10 right 11 right 12 right
