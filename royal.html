@@ -31,8 +31,8 @@
         background-color: rgba(0, 0, 0, 0.345);
         padding-left: 30px;
         padding-top: 10px;
-        position: absolute;
-
+        position: fixed;
+        top: 0;
         z-index: 1;
     }
 
@@ -60,6 +60,44 @@
         transition: 0.5s;
 
     }
+    .register button{
+        color: white;
+        background-color: orangered;
+        width: 500px;
+        margin: 30px;
+        height: 40px;
+        border: none;
+    }
+    .register{
+        text-align: center;
+    }
+    .youtube{
+        height: 380px;
+        width: 100%;
+        background-color: #F0F0F0;
+
+        padding-top: 40px;
+        text-align: center;
+    }
+    .youtube iframe{
+        padding: 10px;
+    }
+    .poster{
+        width: 100%;
+        height: 850px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .poster img{
+        height: 700px;
+        width: 550px;
+        margin: 10px;
+
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.077) , -10px -10px 10px rgba(0, 0, 0, 0.077);
+    }
+    .fa-phone:hover{
+        color: white;
+    }
 </style>
 
 <body>
@@ -74,8 +112,8 @@
                 <a href="">About us</a>
                 <a href="">Our Service</a>
                 <a href="">Contact</a>
-                <a href=""><i class="fa-solid fa-phone"></i></a>
-                <a href="">+91 862987648</a>
+                <!-- <a href=""></a> -->
+                <a href=""><i class="fa-solid fa-phone"></i> &ensp; +91 862987648</a>
             </div>
         </div>
         <!-- navbar ending -->
@@ -115,6 +153,26 @@
                 </button>
             </div>
         </div>
+        <!-- slider ending -->
+
+        <div class="register">
+            <button>Register Here For Free Online seminar on What after 10th/12th</button>
+            <button>Register Here For Free Online Bootcamp</button>
+        </div>
+        <!-- register ending -->
+
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j1_hkYd_31o?si=GyjBprrzd7T1jb1R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wtSwXvaQwNY?si=iiu2NATdNVTCWaYt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- youtube ending -->
+
+        <div class="poster">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/07/NamraShah_page-0001.jpg" alt="">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/04/IMG-20210412-WA0004.jpg" alt="">
+        </div>
+
     </div>
 
 
