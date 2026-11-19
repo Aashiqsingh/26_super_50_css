@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
         integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-       
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-        
 
-       </head>
+
+</head>
 <style>
     * {
         margin: 0;
@@ -33,7 +33,7 @@
         padding-top: 10px;
         position: fixed;
         top: 0;
-        z-index: 1;
+        z-index: 10;
     }
 
     .link {
@@ -60,7 +60,8 @@
         transition: 0.5s;
 
     }
-    .register button{
+
+    .register button {
         color: white;
         background-color: orangered;
         width: 500px;
@@ -68,10 +69,12 @@
         height: 40px;
         border: none;
     }
-    .register{
+
+    .register {
         text-align: center;
     }
-    .youtube{
+
+    .youtube {
         height: 380px;
         width: 100%;
         background-color: #F0F0F0;
@@ -79,67 +82,81 @@
         padding-top: 40px;
         text-align: center;
     }
-    .youtube iframe{
+
+    .youtube iframe {
         padding: 10px;
     }
-    .poster{
+
+    .poster {
         width: 100%;
         height: 850px;
         text-align: center;
         padding-top: 60px;
     }
-    .poster img{
+
+    .poster img {
         height: 700px;
         width: 550px;
         margin: 10px;
 
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.077) , -10px -10px 10px rgba(0, 0, 0, 0.077);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.077), -10px -10px 10px rgba(0, 0, 0, 0.077);
     }
-    .fa-phone:hover{
+
+    .fa-phone:hover {
         color: white;
     }
-    .welcome{
+
+    .welcome {
         height: 650px;
         width: 100%;
         background-color: #F0F0F0;
         display: flex;
     }
-    .list{
+
+    .list {
         width: 50%;
         padding-top: 40px;
         padding-left: 50px;
     }
-    .list h2{
+
+    .list h2 {
         font-weight: 700;
     }
-    .list p{
+
+    .list p {
         margin-bottom: 25px;
     }
-    .pic{
+
+    .pic {
         width: 50%;
         padding-top: 50px;
     }
-    .inner-list p{
+
+    .inner-list p {
         padding: 10px;
         font-size: 18px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.089);
     }
-    .inner-list{
+
+    .inner-list {
         border-left: 1px solid orangered;
     }
-    .inner-list i{
+
+    .inner-list i {
         color: orangered;
         font-size: 30px;
         margin-left: -27px;
     }
-    .job{
+
+    .job {
         margin-top: 70px;
         margin-left: 60px;
         width: 130px;
         height: 120px;
         border-right: 1px solid rgba(0, 0, 0, 0.098);
     }
-    .campus{
+
+    .campus {
         margin-left: 200px;
         margin-top: -120px;
         width: 150px;
@@ -147,81 +164,145 @@
         text-align: center;
         border-right: 1px solid rgba(0, 0, 0, 0.089);
     }
-    .interview{
+
+    .interview {
         margin-left: 400px;
         margin-top: -130px;
         width: 150px;
         text-align: center;
     }
-    .pic p{
+
+    .pic p {
         font-size: 20px;
     }
-    .orange{
+
+    .orange {
         background-color: rgba(255, 68, 0, 0.788);
         height: 500px;
         width: 100%;
         padding-top: 40px;
     }
-    .wrap{
+
+    .wrap {
         height: 500px;
         width: 100%;
         background-image: url('https://media.istockphoto.com/id/1420678520/photo/building-site-at-sunset.jpg?s=612x612&w=0&k=20&c=HoDUK1RxsH78Fj9D34nao_MUTbf-vR3G97zUWMtES4k=');
 
         background-size: cover;
     }
-    .orange h1{
+
+    .orange h1 {
         text-align: center;
         color: white;
         font-size: 50px;
         margin-bottom: 40px;
     }
-    .logoPara{
+
+    .logoPara {
         display: flex;
         justify-content: center;
         gap: 30px;
     }
-    .logoPara p{
+
+    .logoPara p {
         width: 40%;
         text-align: justify;
         color: white;
         font-size: 18px;
     }
-    .logoPara img{
+
+    .logoPara img {
         border: 5px solid white;
     }
-    .service{
+
+    .service {
         height: 700px;
         width: 100%;
         display: flex;
     }
-    .hardware{
+
+    .hardware {
         height: 700px;
         width: 50%;
         background-color: #F0F0F0;
         padding-top: 60px;
         padding-left: 40px;
     }
-    .software{
+
+    .software {
         height: 700px;
         width: 50%;
         background-color: #E7E5E5;
         padding-top: 60px;
         padding-left: 30px;
     }
-    .hardware h1{
+
+    .hardware h1 {
         margin-bottom: 30px;
     }
-    .innerlist i{
+
+    .innerlist i {
         color: orangered;
         font-size: 25px;
         margin-right: 10px;
     }
-    .innerlist p{
+
+    .innerlist p {
         font-size: 18px;
         padding: 7px;
     }
-    .software img{
+
+    .software img {
         padding: 10px;
+    }
+
+    .team {
+        height: 550px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.735);
+        padding-top: 60px;
+    }
+
+    .wrap2 {
+        height: 550px;
+        width: 100%;
+        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/056/635/686/small/black-office-with-desk-and-plants-photo.jpeg');
+        background-size: cover;
+    }
+
+    .team h1 {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    .box{
+        width: 200px;
+        margin: auto;
+    }
+    .text{
+        width: 80%;
+        margin: auto;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .text p{
+        margin-bottom: 50px;
+    }
+    .company{
+        height: 269.5px;
+        width: 100%;
+        background-color: #F0F0F0;
+        padding-top: 40px;
+    }
+    .company h3{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .companyLogo{
+        display: flex;
+        justify-content: space-around;
+        
     }
 </style>
 
@@ -287,8 +368,14 @@
         <!-- register ending -->
 
         <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/j1_hkYd_31o?si=GyjBprrzd7T1jb1R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wtSwXvaQwNY?si=iiu2NATdNVTCWaYt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j1_hkYd_31o?si=GyjBprrzd7T1jb1R"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wtSwXvaQwNY?si=iiu2NATdNVTCWaYt"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <!-- youtube ending -->
@@ -302,46 +389,55 @@
         <div class="welcome">
             <div class="list">
                 <h2>Welcome To Royal Technosoft</h2>
-                <p>Add to your IT skills with short term and Professional courses from Royal Technosoft with Live Projects in Basic and Advance technologies.</p>
+                <p>Add to your IT skills with short term and Professional courses from Royal Technosoft with Live
+                    Projects in Basic and Advance technologies.</p>
                 <div class="inner-list">
-                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Training in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Training in Java,Oracle,Python And Other
+                        Technology</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Placement</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Live Project Training</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Soft skill development</p>
-                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Certification  in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Certification in Java,Oracle,Python And Other
+                        Technology</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Advanced Programs</p>
                 </div>
             </div>
             <div class="pic">
                 <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/dhirajpoojara.png" alt="">
-                
+
                 <div class="job">
                     <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/jobfair-1.png" alt="">
                     <p>Job Fair</p>
                 </div>
                 <div class="campus">
                     <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/campuss.png" alt="">
-                    <p>Campus  Interviews</p>
+                    <p>Campus Interviews</p>
                 </div>
 
                 <div class="interview">
                     <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/pertinalize_interview.png" alt="">
-                    <p>Personalized  Interviews</p>
+                    <p>Personalized Interviews</p>
                 </div>
-            
+
             </div>
         </div>
         <!-- welcome ending -->
 
         <div class="wrap">
-        <div class="orange">
-            <h1>Why Royal Technosoft?</h1>
+            <div class="orange">
+                <h1>Why Royal Technosoft?</h1>
 
-            <div class="logoPara">
-                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/accounting_img.jpg" alt="">
-                <p>Royal Technosoft Pvt. Ltd. provides Global Software Solutions and their affiliated undertakings.  In India’s Ahmedabad, we have a software development team. Both the Gandhinagar branch and Surat where we are currently conducting business. Furthermore, our experts completed a number of government projects for India. Our goal is to comprehend the business goals of our clients and be seen as one of their most organizational aspects. Our primary goal is to create solutions to clients that are quick, simple, and low-effort. Process to ensure prompt response without compromising quality is something we always do.</p>
+                <div class="logoPara">
+                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/accounting_img.jpg" alt="">
+                    <p>Royal Technosoft Pvt. Ltd. provides Global Software Solutions and their affiliated undertakings.
+                        In India’s Ahmedabad, we have a software development team. Both the Gandhinagar branch and Surat
+                        where we are currently conducting business. Furthermore, our experts completed a number of
+                        government projects for India. Our goal is to comprehend the business goals of our clients and
+                        be seen as one of their most organizational aspects. Our primary goal is to create solutions to
+                        clients that are quick, simple, and low-effort. Process to ensure prompt response without
+                        compromising quality is something we always do.</p>
+                </div>
             </div>
-        </div>
         </div>
 
         <!-- orange ending -->
@@ -369,6 +465,60 @@
                 <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/java.jpg" alt="">
                 <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/artificial_inteligence.png" alt="">
                 <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/Python.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- service ending -->
+
+        <div class="wrap2">
+            <div class="team">
+                <h1>Meet The Team</h1>
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="box">
+                            <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team1.png" class="d-block w-100" height="200" width="200" alt="...">
+                            </div>
+                            <div class="text">
+                                <p>She is an expert with 5+ years of expertise in developing Android and Flutter applications and Trainer, including designing, developing, testing, and managing mobile applications.</p>
+                                <h3>Arati Kyada</h3>
+                            </div>
+                        
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                            <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team2.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                            <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Alakh-Pandya.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <!-- team ending -->
+
+        <div class="company">
+            <h3>Some of the awesome projects we’ve worked on.</h3>
+            <div class="companyLogo">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/logo.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/unnati-Informatics-logo.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2017/12/gap.png" alt="">
             </div>
         </div>
 
