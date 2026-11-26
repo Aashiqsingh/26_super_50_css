@@ -1,0 +1,5 @@
+| Task | What to build | Expected hover effect |
+|---|---|---|
+| 1. Lift a button | Create a **Register Now** button. | When the cursor hovers over it, move the button **5px upward** using `translateY()` and add a shadow. |
+| 2. Rotate a square | Create an **80px × 80px** square with a background color. | On hover, rotate the square **45 degrees** using `rotate()` so it looks like a diamond. |
+| 3. Zoom a product image | Create a product card with an image, product name, and price. | When the cursor hovers anywhere on the card, enlarge **only the image** using `scale(1.1)`. Use `overflow: hidden` on the image container to keep the zoom inside its frame. |
